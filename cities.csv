@@ -1,0 +1,10 @@
+CityID,Country,City,Population,Size,CrimeRating
+1,England,London,8674000,607,80
+1,England,Birmingham,1101000,103.4,70
+2,Scotland,Glasgow,598830,67.76,60
+3,Russia,Mosvow,11920000,970,90
+3,Russia,Yaroslavl,597161,79.15,25
+4,Japan,Tokyo,13620000,845,47
+5,Brazil,Sao Paulo,12040000,587,83
+6,Canada,Toronto,2615000,243.3,38
+6,Canada,Montreal,1650000,141,45

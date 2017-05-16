@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">International Travel Advisory App</string>
+    <string name="logo">International Travel Advisory App Logo</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_button">LOG IN</string>
+    <string name="signup_button">SIGN UP</string>
+    <string name="forgotpssd">Forgot Password</string>
+    <string name="credits">Software Engineering\nTeam F</string>
+</resources>

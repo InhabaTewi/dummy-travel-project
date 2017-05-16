@@ -1,0 +1,7 @@
+CID,Country,Continent,Population,Size,Language,Climate,TravelVisa,Vaccinations,Travel Warning,CrimeRating
+1,England,Europe,53010000,50301,English,Temperate,No,,1,56
+2,Scotland,Europe,5295000,30918,English,Temperate,No,,1,48
+3,Russia,Asia,143500000,6602000,Russian,Cold,Yes,"Yellow fever, Polio ®",4,72
+4,Japan,Asia,127300000,145932,Japanese,Extreme,No,"Yellow fever, Polio ®",2,67
+5,Brazil,South America,200400000,3288000,Portugese,Tropical,Yes,Yellow fever,3,85
+6,Canada,North America,35160000,3855000,"[English, French]",Cold,No,,1,38
