@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+        android:fillViewport="false">
+
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView6" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:text="New Text"
+                android:id="@+id/textViewOfcountryName"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="add to favorite"
+                android:id="@+id/checkBox"
+                android:checked="false" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:text="Background:"
+            android:id="@+id/textViewOfBackground"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BackgroundInformation"
+            android:id="@+id/textViewOfBackgroundInformation"
+            android:layout_weight="0.05" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Language"
+                android:id="@+id/textView4"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="firstLanguage"
+                android:id="@+id/textViewOfLanguage1"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="language2"
+                android:id="@+id/textViewOfLanguage2"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="language3"
+                android:id="@+id/textViewOflanguage3"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:text="Visa Requirst:"
+            android:id="@+id/textView5"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="information of visa requirst"
+            android:id="@+id/textViewOfVisa" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="travel_Warning:"
+            android:id="@+id/textView6"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="travel waring information"
+            android:id="@+id/textViewOfTravelWaring" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weather:"
+            android:id="@+id/textView7"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="weather information"
+            android:id="@+id/textViewOfWeatherInfo" />
+
+        <TextView
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:text="Disaster warning:"
+            android:id="@+id/textView8" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Disaster info"
+            android:id="@+id/textViewOfDisasterInfo" />
+
+    </LinearLayout>
+
+</LinearLayout>
